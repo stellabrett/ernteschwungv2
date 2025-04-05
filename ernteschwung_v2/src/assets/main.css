@@ -8,16 +8,18 @@
 
 
 @theme {
-  --color-primary: #677e61;
-  --color-secondary: #0b5d38;
+  --color-primary: #77a180;
+
+  --color-secondary: #305e42;
   --color-bermuda: #78dcca;
   --font-sans: Inter, sans-serif;
+
 }
 
 
 
 body {
-  @apply text-gray-900;
+  @apply text-gray-800;
 }
 
 p {

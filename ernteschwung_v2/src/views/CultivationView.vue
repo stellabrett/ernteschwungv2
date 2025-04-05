@@ -18,17 +18,17 @@
       <h1 class="mb-1">Anbau</h1>
       Wir setzen im Gemüse Anbau auf ein Marktgarten-System. Das bedeutet bodenschonendes Arbeiten durch
       Verzicht auf schwere Maschinen.
-      <p class="pt-5">Abgesehen vom oberflächlichen Einsatz einer Bodenfräse und eines
-        Mulchgerätes wird unser Gemüse von Hand angebaut. Wir arbeiten auf Dauerbeeten, die einmal angelegt
-        und immer wieder neu bepflanzt werden. So können unsere Gemüsepflanzen ihre Wurzeln in einem feinkrümeligen
-        Boden ausbreiten, was ihnen sichtlich Freude bereitet. Wir kaufen Kompost, verteilen ihn regelmäßig
-        auf unseren Beeten und erhöhen so die Bodenfruchtbarkeit, die Grundlage für gesundes Pflanzenwachstum.
-        Unsere Jungpflanzen ziehen wir zum größten Teil selbst, zum Teil kaufen wir zu.
+      <p class="pt-5">Abgesehen vom oberflächlichen Einsatz einer Bodenfräse und eines Mulchgerätes wird unser
+        Gemüse von Hand angebaut. Wir arbeiten auf Dauerbeeten, die einmal angelegt und immer wieder neu bepflanzt werden.
+        So können unsere Gemüsepflanzen ihre Wurzeln in einem feinkrümeligen Boden ausbreiten, was ihnen sichtlich Freude bereitet.
+        Wir verwenden Kompost auf unseren Beeten, achten auf eine ausgewogene Fruchtfolge & setzen Gründüngungen ein. Dadurch erhöhen
+        wir die Bodenfruchtbarkeit, die Grundlage für gesundes Pflanzenwachstum.
       </p>
       <p class="pt-5">
-        Durch entsprechende Sortenwahl, ausreichende Pflanzabstände und vorbeugende Maßnahmen konnten wir den Einsatz
-        von Pflanzenschutzmitteln bisher auf den Einsatz von Gelbtafeln gegen Trauermücken in der Kultur und einer
-        Kaliseifenlösung bei massivem Blattlausbefall beschränken
+        Durch entsprechende Sortenwahl, ausreichende Pflanzabstände und unseren Fokus auf einen fruchtbaren
+        Boden minimieren wir den Einsatz von bio-tauglichen Pflanzenschutzmitteln.
+
+
       </p>
     </div>
     <div class="rounded-sm pb-4">
@@ -46,7 +46,7 @@
     <div class=" me-6 my-8">
       <img src="@/assets/img/anbau2.jpg" alt="Gemüse im Anbautunnel" class="w-full rounded-sm anbau2 shadow-xl">
     </div>
-    <div class="m-2 w-1/2 self-center text">
+    <div class="m-2 md:w-1/2 self-center text">
       <h2 class="my-2">Unser Ziel ist es...</h2>
       <span> einen gesunden Boden als Grundlage für ein gesundes Pflanzenwachstum zu schaffen,
         um eine hohe Qualität des Gemüses zu gewährleisten und gleichzeitig den Einsatz von Pflanzenschutzmitteln
@@ -93,6 +93,19 @@
       </div>
     </div>
   </div>
+  <div class="flex flex-wrap p-4  md:mt-8 bg-primary h-[600px]  gap-4 max-h-fit">
+    <div class=" p-6  flex flex-col w-full">
+      <h2 class="mb-1 text-neutral-50 text-sm">Jungpflanzenproduktion</h2>
+      <p class="pt-5 text-neutral-50">Unsere Jungpflanzen ziehen wir zu einem Teil selbst
+        und zum Teil kaufen wir vom Jaklhof
+        <a href="https://jaklhof.at" class="underline hover:text-gray-500 cursor-pointer">www.jaklhof.at</a> zu. Im Mai verkaufen wir
+        eine Vielzahl verschiedener Sorten von Gemüse- & Blumenjungpflanzen auf mehreren Märkten
+        in der Region sowie bei unseren hofeigenen Pflanzenmärkten
+      </p>
+    </div>
+
+  </div>
+
 </template>
 
 <style scoped>

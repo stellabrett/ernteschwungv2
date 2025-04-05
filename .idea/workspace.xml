@@ -4,32 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48854b3-4df7-47e2-998b-a207b6d1de78" name="Changes" comment="init a lot">
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/icons/angle-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonBase.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonTertiary.vue" afterDir="false" />
+    <list default="true" id="d48854b3-4df7-47e2-998b-a207b6d1de78" name="Changes" comment="work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/CtaSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/CtaSection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/EventCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/EventCard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/Icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/Icon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/Footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonPrimary.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonPrimary.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonSecondary.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonSecondary.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/icons/IconCommunity.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/icons/IconDocumentation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/icons/IconEcosystem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/icons/IconSupport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/icons/IconTooling.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/stores/event.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/stores/event.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/CultivationView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/CultivationView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/HomeView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/SoLaWiView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/SoLaWiView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/UpcomingView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/UpcomingView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +81,8 @@
       <recent name="$PROJECT_DIR$/ernteschwung_v2/src/assets/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ernteschwung_v2/src/assets/icons" />
       <recent name="$PROJECT_DIR$/ernteschwung_v2/src/assets/img" />
+      <recent name="$PROJECT_DIR$/ernteschwung_v2/src/assets/icons" />
       <recent name="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components" />
     </key>
   </component>
@@ -115,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743793657457</updated>
       <workItem from="1743793658506" duration="13157000" />
-      <workItem from="1743846235785" duration="7299000" />
+      <workItem from="1743846235785" duration="15007000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -141,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743842538476</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="work">
+      <option name="closed" value="true" />
+      <created>1743853926157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743853926157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +158,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="started to rebuild components" />
     <MESSAGE value="init a lot" />
-    <option name="LAST_COMMIT_MESSAGE" value="init a lot" />
+    <MESSAGE value="work" />
+    <option name="LAST_COMMIT_MESSAGE" value="work" />
   </component>
 </project>

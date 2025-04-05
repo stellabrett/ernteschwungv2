@@ -2,6 +2,7 @@
 import kernteam from '@/assets/img/Kernteam.jpg'
 import CtaSection from "@/components/CtaSection.vue";
 import ButtonPrimary from "@/components/_ui_components/ButtonPrimary.vue";
+import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
 
 </script>
 
@@ -113,7 +114,7 @@ import ButtonPrimary from "@/components/_ui_components/ButtonPrimary.vue";
                       d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"/>
               </svg>
             </div>
-            <h3 class="text-lg font-semibold mt-4 ">Teilhabe</h3>
+            <h2 class="text-lg font-semibold mt-4 ">Teilhabe</h2>
             <p class="mt-2 text-sm">Die SoLaWi ist das, was wir alle daraus machen. Bei verschiedenen Gelegenheiten, hast
               du die Möglichkeit, mitzugestalten.</p>
           </div>
@@ -124,7 +125,7 @@ import ButtonPrimary from "@/components/_ui_components/ButtonPrimary.vue";
           <img class="max-w-full lg:max-w-2xl rounded-md shadow-md" :src="kernteam" alt="Kernteam">
         </div>
         <div class="p-2 my-8 order-2 w-full lg:w-4/5">
-          <h2 class="text-2xl font-semibold">Kernteam</h2>
+          <h2 class="text-2xl ">Kernteam</h2>
           <p class="mt-5 text-balance">
             Seit dem Jahr 2023 ist Ernteschwung als Solidarische Landwirtschaft organisiert – Das bedeutet
             unter anderem Teilhabe an der Produktion deiner Lebensmittel. Im Jahr der Gründung hat
@@ -141,7 +142,7 @@ import ButtonPrimary from "@/components/_ui_components/ButtonPrimary.vue";
           <img src="@/assets/img/erntedankfest.jpg" class="p-10 max-w-full lg:max-w-2xl rounded-md " alt="Erntedankfest ">
         </div>
         <div class="p-10 w-full lg:w-4/5 order-4 lg:order-3">
-          <h2 class="text-2xl font-semibold">Erntedankfest</h2>
+          <h2 class="text-2xl ">Erntedankfest</h2>
           <p>
             Unser jährliches Erntedankfest im Herbst wird gemeinsam vom Kernteam und anderen motivierten ErnteteilerInnen
             veranstaltet und stellt für uns alle die Krönung des Gemüse-Jahreskreises dar – Wir freuen uns an dem Tag über
@@ -153,8 +154,15 @@ import ButtonPrimary from "@/components/_ui_components/ButtonPrimary.vue";
         </div>
       </div>
       <cta-section class="events-bg">
-        <template v-slot:cta-txt>Alle unsere Veranstaltungen findest du hier!</template>
-        <template v-slot:btn-txt>UNSERE EVENTS</template>
+        <template #cta-txt>
+          <span>Alle unsere Veranstaltungen findest du hier!</span>
+        </template>
+   <template #cta-action>
+     <RouterLink to="/upcoming">
+       <ButtonSecondary title="Aktuelles" iconPostfix="angle-right"/>
+     </RouterLink>
+   </template>
+
       </cta-section>
     </div>
 </template>

@@ -19,11 +19,16 @@ const click = () => {
   <button
     @click="click"
     :ariaLabel="ariaLabel"
-    class="appearance-none rounded-lg cursor-pointer bg-neutral-50 text-primary outline-1 outline-primary
-  hover:bg-primary-light  py-2 px-4 inline-block text-center text-sm leading-tight hover:scale-110 shadow-lg">
+    class="appearance-none cursor-pointer
+    text-neutral-50 border-b-neutral-50    rounded-lg
+       focus:outline-2  outline-1
+  hover:bg-primary-light  py-2 px-4 inline-block text-center text-sm leading-tight hover:scale-105 shadow-lg shadow-emerald-900/30
+">
+
     <slot name="icon-prefix"></slot>
     {{title}}
     <slot name="icon-postfix"></slot>
+
   </button>
 </template>
 
