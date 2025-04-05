@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d48854b3-4df7-47e2-998b-a207b6d1de78" name="Changes" comment="work">
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/icons/angle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/ImageSlider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/CtaSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/CtaSection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonPrimary.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonPrimary.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonSecondary.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonSecondary.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/CultivationView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/CultivationView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/SoLaWiView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/SoLaWiView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/ErnteteilerView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/ErnteteilerView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743793657457</updated>
       <workItem from="1743793658506" duration="13157000" />
-      <workItem from="1743846235785" duration="15007000" />
+      <workItem from="1743846235785" duration="17314000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -136,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743853926157</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="work">
+      <option name="closed" value="true" />
+      <created>1743861591440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743861591440</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

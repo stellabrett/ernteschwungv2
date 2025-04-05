@@ -1,5 +1,7 @@
 <script setup lang="ts">
 
+import ImageSlider from "@/components/ImageSlider.vue";
+import CtaSection from "@/components/CtaSection.vue";
 </script>
 
 <template>
@@ -82,15 +84,29 @@
       </div>
     </div>
   </div>
-  <div class=" flex flex-col bg-secondary text-neutral-50 px-20 py-16 ">
-    <p class="text-center text-2xl">Du möchtest Teil der Solidarischen Landwirtschaft Ernteschwung werden und von April
-      bis Dezember wöchentlich in den Genuss
-      von hochwertigem, erntefrischen Bio-Gemüse kommen?
-    </p>
-    <p class="pt-5 text-center">Dann melde dich per Mail oder telefonisch bei Arjuna oder Anke
-      und falls wir noch freie Plätze für die aktuelle Saison zu vergeben haben, senden wir dir
-      gerne eine Saisonvereinbarung zu, mit der du dir dann deinen Gemüseanteil sichern kannst.
-    </p>
+  <div class=" md:mt-10 flex flex-col justify-end items-center">
+    <h2>Wie kann so ein Ernteanteil aussehen?</h2>
+    <ImageSlider />
+  </div>
+  <cta-section>
+    <template cta-text>
+      <p class="text-center text-2xl">Du möchtest Teil der Solidarischen Landwirtschaft Ernteschwung werden und von April
+        bis Dezember wöchentlich in den Genuss
+        von hochwertigem, erntefrischen Bio-Gemüse kommen?
+      </p>
+      <p class="pt-5 text-center">Dann melde dich per Mail oder telefonisch bei Arjuna oder Anke
+        und falls wir noch freie Plätze für die aktuelle Saison zu vergeben haben, senden wir dir
+        gerne eine Saisonvereinbarung zu, mit der du dir dann deinen Gemüseanteil sichern kannst.
+      </p>
+    </template>
+    <template #cta-button>
+
+    </template>
+
+  </cta-section>
+
+  <div>
+
   </div>
 </template>
 
