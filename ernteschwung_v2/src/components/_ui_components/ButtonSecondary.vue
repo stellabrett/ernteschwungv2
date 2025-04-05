@@ -21,17 +21,13 @@ const click = () => {
   <button
     @click="click"
     :ariaLabel="ariaLabel"
-    class="appearance-none rounded-lg cursor-pointer bg-primary text-white
+    class="appearance-none rounded-lg cursor-pointer bg-white text-primary outline-1 outline-primary
   hover:bg-primary-light shadow py-3 px-6 inline-block text-center">
-    <slot name="icon-prefix">
-      <icon v-if="props.iconPrefix" name="props.iconPrefix" class="w-4 h-4 mr-2"></icon>
-    </slot>
+    <slot name="icon-prefix"></slot>
     {{title}}
     <slot name="icon-postfix"></slot>
   </button>
 </template>
-
-
 
 <style scoped>
 

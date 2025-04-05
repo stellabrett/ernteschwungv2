@@ -1,6 +1,7 @@
 <script setup lang="ts">
-const isOpen = ref(false);
+import {ref} from "vue";
 
+const isOpen =ref(false);
 function toggleMenu() {
   isOpen.value = !isOpen.value;
 }
@@ -10,7 +11,7 @@ function closeMenu() {
 </script>
 
 <template>
-  <template>
+
     <header class="bg-tertiary border-b shadow">
       <nav class="mx-auto flex max-w-8xl items-center justify-between p-1 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
@@ -63,7 +64,6 @@ function closeMenu() {
         </button>
       </div>
     </header>
-</template>
 </template>
 <style scoped>
 </style>
