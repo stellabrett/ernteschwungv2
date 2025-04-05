@@ -4,11 +4,11 @@ import flyerJungplanzenMarkt from "@/assets/img/Flyer_Jungpflanzenmarkt_Erntesch
 import flyerInfoveranstaltung from "@/assets/img/Flyer_Infoveranstaltung.jpg";
 
 interface Event {
-  title: string;
-  date: string;
-  text: string;
+  title?: string;
+  date?: string;
+  text?: string;
   id: number;
-  image: string;
+  image?: string;
 }
 
 export const useEventStore = defineStore('event', {

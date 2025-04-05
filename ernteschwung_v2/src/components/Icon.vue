@@ -8,16 +8,15 @@ const props = defineProps({
   },
 })
 
+// feel free to update this with an svg directory of your choice
 const icon = defineAsyncComponent(async () => {
   if (props.name == '') {
     return await new Promise(() => {})
   }
   try {
     return await import(`@/assets/icons/${props.name}.svg`)
-  }
-  catch (error) {
-    console.error('Icon not found:', error)
-    return await import(`@/assets/icons/default.svg`)
+  } catch {
+    console.error('Icon props error')
   }
 })
 </script>

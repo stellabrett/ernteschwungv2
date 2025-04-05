@@ -133,7 +133,7 @@ import ButtonPrimary from "@/components/_ui_components/ButtonPrimary.vue";
           </p>
           <div class="my-5">
             <RouterLink to="/about">
-              <ButtonPrimary title="ERFAHRE MEHR"/>
+              <ButtonPrimary title="Erfahre mehr"/>
             </RouterLink>
           </div>
         </div>

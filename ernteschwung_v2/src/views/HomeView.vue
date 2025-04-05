@@ -4,10 +4,17 @@ import kernteam from "@/assets/img/Kernteam.jpg";
 import violetteBohnen from "@/assets/img/violetteBohnen_web.jpg";
 import ButtonPrimary from "@/components/_ui_components/ButtonPrimary.vue";
 import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
+import ButtonTertiary from "@/components/_ui_components/ButtonTertiary.vue";
+import Icon from "@/components/Icon.vue";
+import {useRouter} from "vue-router";
+
+const router = useRouter()
 </script>
 
+
+
 <template>
-  <div class="relative w-full max-h-screen md:h-[500px] sm:h-[400px]">
+  <div class="relative w-full max-h-screen md:h-[500px] sm:h-[400px] ">
     <img :src="violetteBohnen" alt="Header Image" class="w-full h-full object-cover">
     <div class="absolute inset-0 bg-black opacity-20"></div>
     <div class="absolute inset-0 flex flex-col justify-end items-center text-center">
@@ -31,13 +38,15 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
           deine Küche und Sicherheit in den Anbau. Vom ersten Bund Radieschen im Frühjahr über die Zucchini- und
           Tomatenschwemme im Sommer bis hin zum saftigen Vogerlsalat aus dem ringsum verschneiten Gewächshaus. Das ist
           saisonaler Gemüsegenuss, den du mit uns erleben kannst. Hast du Lust auf mehr?</p>
-        <ButtonPrimary class="" title="erfahre mehr">
-          <router-link to="/anbau" class="appearance-none text-white">ERFAHRE MEHR</router-link>
-        </ButtonPrimary>
+
+      <router-link to="cultivation">
+        <ButtonPrimary class="" title="Erfahre mehr"/>
+      </router-link>
+
       </div>
     </div>
   </div>
-  <div class="flex flex-wrap justify-center content-center place-content-center  bg-primary-light flex-row my-20">
+  <div class="flex flex-wrap justify-center content-center place-content-center  bg-emerald-800 flex-row my-20">
     <div class=" p-4  my-8 max-w-prose text-base self-center ">
       <h2 class="text-white">Team</h2>
       <p class="mt-5 text-white">Im Marktgarten sorgen Anke, Arjuna und Anna für die sorgsame Pflege der Gemüsekulturen.
@@ -46,7 +55,7 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
         lebendig und vielfältig.</p>
       <div class="my-5 ">
         <RouterLink to="/about">
-          <ButtonSecondary class="text-white mt-5 " title="erfahre mehr"></ButtonSecondary>
+          <ButtonSecondary title="Zu unserem Team"></ButtonSecondary>
         </RouterLink>
       </div>
     </div>
@@ -56,16 +65,17 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
   </div>
   <div class="flex mt-2 mx-auto">
     <div class="card flex flex-col text-center h-full justify-center items-center mx-auto">
-      <img src="@/assets/img/logoRund.jpg" alt="SoLaWi" class="rounded-sm self-center w-full ">
+      <div class="w-96 h-96">
+        <img src="@/assets/img/logoRund.jpg" alt="SoLaWi" class="rounded-sm self-center w-full ">
+      </div>
+
       <h2 class="mt-5">SoLaWi</h2>
       <p class="flex-grow">Solawi? Solawas? Du willst genaueres über Solidarische Landwirtschaft erfahren und warum es
         das Zukunftskonzept für regionale Landwirtschaft ist?</p>
       <div class=" my-8 mt-6">
-        <RouterLink to="/anbau" class="text-primary flex flex-row">ERFAHRE MEHR
-          <svg class="fill-primary ml-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
-               width="24px" fill="#5f6368">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
+        <RouterLink to="/solawi" class="text-primary flex flex-row">
+          <ButtonTertiary title="Erfahre mehr" iconPostfix="angle-right" >
+          </ButtonTertiary>
         </RouterLink>
       </div>
     </div>

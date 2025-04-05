@@ -5,7 +5,7 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
 </script>
 
 <template>
-  <div class="  bg-secondary py-8">
+  <div class="  bg-emerald-800 py-8">
 
     <div class="md:text-4xl p-2 text-center text-neutral-50">
       <slot name="cta-txt">Werde Teil unser SoLaWi und hole dir dein Gemüse
@@ -14,7 +14,7 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
     </div>
     <div class="flex justify-center mt-6">
       <router-link to="/contact">
-        <ButtonSecondary class="" :title="KONTAKTIERE">
+        <ButtonSecondary  title="Kontaktiere uns">
         </ButtonSecondary>
       </router-link>
 

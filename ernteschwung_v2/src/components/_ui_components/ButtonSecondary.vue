@@ -6,8 +6,6 @@ const props = defineProps<{
   title: string,
   type?: string,
   ariaLabel?: string,
-  iconPrefix?:  string,
-  iconPostfix?: string,
 }>()
 
 const ariaLabel = computed(() => props.ariaLabel || props.title)
@@ -21,8 +19,8 @@ const click = () => {
   <button
     @click="click"
     :ariaLabel="ariaLabel"
-    class="appearance-none rounded-lg cursor-pointer bg-white text-primary outline-1 outline-primary
-  hover:bg-primary-light shadow py-3 px-6 inline-block text-center">
+    class="appearance-none rounded-lg cursor-pointer bg-neutral-50 text-primary outline-1 outline-primary
+  hover:bg-primary-light  py-2 px-4 inline-block text-center text-sm leading-tight hover:scale-110 shadow-lg">
     <slot name="icon-prefix"></slot>
     {{title}}
     <slot name="icon-postfix"></slot>

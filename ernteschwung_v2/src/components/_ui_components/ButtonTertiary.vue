@@ -10,7 +10,7 @@ const props = defineProps<{
   iconPrefix?:  string,
   iconPostfix?: string,
 }>()
-
+console.log('im button', props.iconPrefix )
 const ariaLabel = computed(() => props.ariaLabel || props.title)
 const emit = defineEmits(['click'])
 const click = () => {
@@ -22,13 +22,14 @@ const click = () => {
   <button
     @click="click"
     :ariaLabel="ariaLabel"
-    class="appearance-none rounded-lg cursor-pointer bg-primary text-neutral-50 outline-1 outline-primary
-  hover:bg-primary-light  py-2 px-4 inline-block text-center text-sm leading-tight hover:scale-110 shadow-lg" >
-    <slot name="icon-prefix">
-      <icon v-if="iconPrefix" name="props.iconPrefix" class="w-4 h-4 mr-2"></icon>
-    </slot>
-    {{title}}
-    <slot name="icon-postfix"></slot>
+    class="appearance-none rounded-lg cursor-pointer text-primary
+  hover:bg-primary-light  py-3 px-6  text-center hover:scale-110 flex items-center justify-center gap-1">
+
+      <icon v-if="iconPrefix" :name="iconPrefix" class="h-5 w-5 text-primary"></icon>
+
+  {{title}}
+      <icon v-if="iconPostfix" :name="iconPostfix" class="h-5 w-5 text-primary"></icon>
+
   </button>
 </template>
 

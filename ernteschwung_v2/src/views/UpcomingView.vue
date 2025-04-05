@@ -1,6 +1,7 @@
 <script setup lang="ts">
 
 import {useEventStore} from "@/stores/event.ts";
+import EventCard from "@/components/EventCard.vue";
 
 const eventStore = useEventStore()
 eventStore.fetchEvents()
@@ -19,7 +20,7 @@ eventStore.fetchEvents()
   </div>
   <div class="p-5n ">
     <h2 class="m-2 text-3xl text-center mt-3 mb-6">News</h2>
-    <div class="events flex flex-row flex-wrap gap-4 justify-evenly my-8">
+    <div class=" flex flex-row flex-wrap gap-4  my-8 w-full justify-center p-4">
       <div v-for="event in eventStore.events" :key="event.id">
         <EventCard :image="event.image"/>
       </div>

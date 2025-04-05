@@ -12,11 +12,10 @@ function closeMenu() {
 
 <template>
 
-    <header class="bg-tertiary border-b shadow">
+    <header class="bg-stone-100/60 absolute top-0 left-0 z-50  shadow w-full ">
       <nav class="mx-auto flex max-w-8xl items-center justify-between p-1 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
           <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Ernteschwung</span>
             <img class="h-16 w-60" src="@/assets/img/Logo_Schriftzug_freigestellt_klein.png" alt="Logo" />
           </a>
         </div>
@@ -29,8 +28,8 @@ function closeMenu() {
         </div>
 
         <div class="hidden lg:flex lg:gap-x-12">
-          <RouterLink to="/" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">Home</RouterLink>
-          <RouterLink to="/about" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">Über uns</RouterLink>
+          <RouterLink to="/" class="text-sm leading-6 font-semibold text-gray-900  hover:text-primary">Home</RouterLink>
+          <RouterLink to="/about" class="text-sm  leading-6 font-semibold text-gray-900 hover:text-primary">Über uns</RouterLink>
           <RouterLink to="/cultivation" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">Anbau</RouterLink>
           <RouterLink to="/solawi" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">SoLaWi</RouterLink>
           <RouterLink to="/ernteteiler" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">ErnteteilerIn werden</RouterLink>
