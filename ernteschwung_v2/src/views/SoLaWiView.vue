@@ -8,7 +8,7 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
 
 
   <template>
-    <div class="relative w-full  max-h-screen md:h-[500px] sm:h-[200px]">
+<!--    <div class="relative w-full  max-h-screen md:h-[500px] sm:h-[200px]">
       <img src="@/assets/img/tomaten_web.jpg" alt="jungzwiebel" class="w-full h-full object-cover">
       <div class="absolute inset-0 bg-black opacity-30"></div>
       <div class="absolute inset-0 flex flex-col justify-end items-center text-center">
@@ -17,8 +17,21 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
           <p class="text-5xl lg:text-7xl leading-relaxed ">Ernteschwung</p>
         </div>
       </div>
+    </div>-->
+    <div class="relative w-full max-h-screen md:h-[500px] lg:h-[550px] h-[250px] ">
+      <img src="@/assets/img/tomaten_web.jpg" alt="jungzwiebel" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-black opacity-40"></div>
+      <div class="absolute inset-0 flex flex-col justify-end items-center text-center gap-2 pb-2 md:pb-8">
+        <div class=" w-full text-white">
+          <p class="text-lg md:text-4xl lg:text-5xl  leading-0 md:leading-4">SoLaWi</p>
+          <p class="text-3xl md:text-6xl lg:text-7xl md:leading-relaxed tracking-wide ">Ernteschwung</p>
+        </div>
+        <div class="flex justify-center mx-auto  p-2">
+          <div class="text-sm md:text-xl text-gray-100 ">Willst du wissen, wie wir die Landwirtschaft revolutionieren?</div>
+        </div>
+      </div>
     </div>
-    <div class=" p-2 my-10 mx-auto lg:mx-8 ">
+    <div class=" p-4 my-10 mx-auto lg:mx-8 ">
       <h1>SoLaWi- Solidarische Landwirtschaft</h1>
       <p> ein zukunftsweisendes Modell für eine ökologische und soziale Landwirtschaft ist, das sowohl die Natur als auch
         die Menschen in den Mittelpunkt stellt.</p>
@@ -34,12 +47,12 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
     </div>
     <div>
       <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-4 place-items-center bg-primary text-neutral-50  p-2 ">
-        <div class="max-w-96 p-2">
+        <div class="max-w-96 p-2 ">
           <img src="@/assets/img/KorbHaende.jpg" alt="Gemüsekorb mit händen " class="ml-2 rounded-sm ">
         </div>
-        <div class="md:mt-4">
+        <div class="md:mt-4 p-4 ">
           <h2>Warum SoLaWi?</h2>
-          <div class="my-8 mx-auto md:me-10">
+          <div class="my-2 mx-auto md:me-10 ">
             <h3 class="font-semibold text-lg">Solidarität</h3>
             <p class="mb-4">SoLaWi verbindet ErzeugerInnen und VerbraucherInnen, um gemeinsam Verantwortung für eine
               nachhaltige Lebensmittelproduktion zu übernehmen. Diese Solidarität ermöglicht faire Bedingungen und eine
@@ -77,7 +90,7 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
       <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-4 place-items-start m-12 justify-center items-center ">
       </div>
       <!-- Mitgestaltung -->
-      <div class=" p-3   lg:mx-8">
+      <div class=" p-3  lg:mx-8">
         <h2 class="text-center mb-10 leading-8">Was kannst du beitragen?</h2>
         <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center items-start ">
           <div class="text-center max-w-96 border-2 shadow-lg border-neutral-300 rounded-md p-4 min-h-60">
@@ -139,9 +152,9 @@ import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
           </div>
         </div>
         <div class="w-full  flex justify-center order-3 lg:order-4">
-          <img src="@/assets/img/erntedankfest.jpg" class="p-10 max-w-full lg:max-w-2xl rounded-md " alt="Erntedankfest ">
+          <img src="@/assets/img/erntedankfest.jpg" class="md:p-10 max-w-full lg:max-w-2xl rounded-md object-cover " alt="Erntedankfest ">
         </div>
-        <div class="p-10 w-full lg:w-4/5 order-4 lg:order-3">
+        <div class="md:p-10 w-full lg:w-4/5 order-4 lg:order-3">
           <h2 class="text-2xl ">Erntedankfest</h2>
           <p>
             Unser jährliches Erntedankfest im Herbst wird gemeinsam vom Kernteam und anderen motivierten ErnteteilerInnen

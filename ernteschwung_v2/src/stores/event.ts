@@ -19,22 +19,22 @@ export const useEventStore = defineStore('event', {
     fetchEvents() {
       this.events = [
         {
-          title: "Jetzt Vorbestellen",
-          date: "13.12.2024 - 31.12.2024",
-          text: "Mit 13.12. geben wir unseren letzten Ernteanteil für die heurige Saison aus und gehen dann in eine kurze Winterpause. Ab sofort kann man sich (per Mail oder Anruf) wieder für einen Ernteanteil im Jahr 2025 voranmelden.",
+          title: "Jungpflanzenmarkt",
+          date: "",
+          text: "",
           id: 1,
           image: flyerJungplanzenMarkt,
         },
         {
-          title: "Erntedank Fest",
-          date: "09.09.2024, Ernteschwung Biohof",
+          title: "Infoveranstaltung",
+          date: "",
           text: "",
           id: 2,
           image: flyerInfoveranstaltung,
         },
         {
-          title: "Erntedank Fest",
-          date: "09.09.2024, Ernteschwung Biohof",
+          title: "Flyer Allgemein",
+          date: "",
           text: "",
           id: 3,
           image: flyerAllgemein,

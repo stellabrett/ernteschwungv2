@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
+import CookieConsent from "@/components/CookieConsent.vue";
 
 </script>
 
@@ -9,6 +10,7 @@ import Footer from "@/components/Footer.vue";
   <NavBar/>
   <RouterView />
  <Footer/>
+  <CookieConsent />
 </template>
 
 <style scoped>

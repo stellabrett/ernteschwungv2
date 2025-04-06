@@ -22,7 +22,7 @@ const click = () => {
     class="appearance-none cursor-pointer
     text-neutral-50 border-b-neutral-50    rounded-lg
        focus:outline-2  outline-1
-  hover:bg-primary-light  py-2 px-4 inline-block text-center text-sm leading-tight hover:scale-105 shadow-lg shadow-emerald-900/30
+  hover:bg-primary-light  py-2 px-4 inline-block text-center text-sm leading-tight hover:scale-105 shadow-lg shadow-neutral-50/30
 ">
 
     <slot name="icon-prefix"></slot>

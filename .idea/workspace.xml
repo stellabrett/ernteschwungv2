@@ -4,19 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48854b3-4df7-47e2-998b-a207b6d1de78" name="Changes" comment="work">
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/icons/angle-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/img/Ernteanteil7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/ImageSlider.vue" afterDir="false" />
+    <list default="true" id="d48854b3-4df7-47e2-998b-a207b6d1de78" name="Changes" comment="added image slider">
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/icons/eco.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/CookieConsent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/SocialBanner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/ctaSocial.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/EventCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/EventCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonSecondary.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/components/_ui_components/ButtonSecondary.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/stores/event.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/stores/event.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/AboutView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/ContactView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/ContactView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/CultivationView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/CultivationView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/ErnteteilerView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/ErnteteilerView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/HomeView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/SoLaWiView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/SoLaWiView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ernteschwung_v2/src/views/UpcomingView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ernteschwung_v2/src/views/UpcomingView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/AT-BIO-402_AT_quer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/ErnteschwungHof_web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/Facebook_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/Jungzwiebel_web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/Kernteam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/KorbHaende.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/Laufenten.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/Logo_Schriftzug_freigestellt_klein.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/Schafe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/anbau2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/anbau3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/anbauFeld.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/ankeArjuna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/erbsenGießkanne.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/ernteanteil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/erntedankfest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/instagramLogo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/logoRund.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/mangold_web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/salat_web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/tomaten_web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_img/violetteBohnen_web.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +91,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/stella/Documents/privateProjects/ernteschwung/ernteschwung_v2/src/assets/icons",
+    "last_opened_file_path": "/Users/stella/Documents/privateProjects/ernteschwung/ernteschwung_v2/src/assets/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,8 +108,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ernteschwung_v2/src/assets/icons" />
       <recent name="$PROJECT_DIR$/ernteschwung_v2/src/assets/img" />
+      <recent name="$PROJECT_DIR$/ernteschwung_v2/src/assets/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ernteschwung_v2/src/assets/img" />
@@ -102,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743793657457</updated>
       <workItem from="1743793658506" duration="13157000" />
-      <workItem from="1743846235785" duration="17314000" />
+      <workItem from="1743846235785" duration="27408000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -144,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743861591440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added image slider">
+      <option name="closed" value="true" />
+      <created>1743863871281</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743863871281</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +206,7 @@
     <MESSAGE value="started to rebuild components" />
     <MESSAGE value="init a lot" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="added image slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="added image slider" />
   </component>
 </project>

@@ -66,11 +66,11 @@ const router = useRouter()
   </div>
   <div class="flex mt-2 mx-auto">
     <div class="card flex flex-col text-center h-full justify-center items-center mx-auto">
-      <div class="w-96 h-96">
+      <div class="max-w-96 max-h-96 p-2">
         <img src="@/assets/img/logoRund.jpg" alt="SoLaWi" class="rounded-sm self-center w-full ">
       </div>
 
-      <h2 class="mt-5">SoLaWi</h2>
+      <h2 class="md:mt-5 mt-3">SoLaWi</h2>
       <p class="flex-grow">Solawi? Solawas? Du willst genaueres über Solidarische Landwirtschaft erfahren und warum es
         das Zukunftskonzept für regionale Landwirtschaft ist?</p>
       <div class=" my-8 mt-6">

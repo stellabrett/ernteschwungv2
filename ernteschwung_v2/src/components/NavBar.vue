@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {ref} from "vue";
+import Icon from "@/components/Icon.vue";
 
 const isOpen =ref(false);
 function toggleMenu() {
@@ -23,7 +24,10 @@ function closeMenu() {
         <div class="relative lg:hidden">
           <button @click="toggleMenu" class="text-2xl p-2 focus:outline-none">
             <span v-if="!isOpen">☰</span>
-            <span v-else>✖</span>
+            <span v-else>
+              <icon name="close" class="w-6 h-6"></icon>
+
+            </span>
           </button>
         </div>
 
@@ -39,7 +43,7 @@ function closeMenu() {
       </nav>
 
       <!-- Mobile Menu -->
-      <div v-if="isOpen" class="absolute left-0 right-0 top-18 z-50 flex flex-col p-5 bg-tertiary bg-opacity-90 shadow-lg items-start ">
+      <div v-if="isOpen" class="absolute left-0 right-0 top-18 z-50 flex flex-col p-5 bg-tertiary bg-neutral-50 bg-opacity-90 shadow-lg items-start ">
         <button class="w-full">
           <RouterLink to="/" @click="closeMenu" class="text-sm p-2 hover:bg-tertiary-dark w-full  ">Home</RouterLink>
         </button>

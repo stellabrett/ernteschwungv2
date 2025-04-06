@@ -2,10 +2,12 @@
 
 import ImageSlider from "@/components/ImageSlider.vue";
 import CtaSection from "@/components/CtaSection.vue";
+import violetteBohnen from "@/assets/img/violetteBohnen_web.jpg";
+import Icon from "@/components/Icon.vue";
 </script>
 
 <template>
-  <div class="relative w-full  max-h-screen md:h-[500px] sm:h-[400px]">
+<!--  <div class="relative w-full  max-h-screen md:h-[500px] sm:h-[400px]">
     <img src="@/assets/img/mangold_web.jpg" alt="fisolen" class="w-full h-full object-cover shadow-xl">
     <div class="absolute inset-0 bg-black opacity-10"></div>
     <div class="absolute inset-0 flex flex-col justify-end items-center text-center">
@@ -14,7 +16,21 @@ import CtaSection from "@/components/CtaSection.vue";
         <p class="text-5xl lg:text-7xl leading-relaxed ">Ernteschwung</p>
       </div>
     </div>
+  </div>-->
+  <div class="relative w-full max-h-screen md:h-[500px] lg:h-[550px] h-[250px] ">
+    <img src="@/assets/img/mangold_web.jpg" alt="Mangold" class="w-full h-full object-cover shadow-xl">
+    <div class="absolute inset-0 bg-black opacity-40"></div>
+    <div class="absolute inset-0 flex flex-col justify-end items-center text-center gap-2 pb-2 md:pb-8">
+      <div class=" w-full text-white">
+        <p class="text-lg md:text-4xl lg:text-5xl  leading-0 md:leading-4">SoLaWi</p>
+        <p class="text-3xl md:text-6xl lg:text-7xl md:leading-relaxed tracking-wide ">Ernteschwung</p>
+      </div>
+      <div class="flex justify-center mx-auto  p-2">
+        <div class="text-sm md:text-xl text-gray-100 ">Willst du wissen, wie wir die Landwirtschaft revolutionieren?</div>
+      </div>
+    </div>
   </div>
+
   <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 m-2 p-2 md:mx-8 ">
     <div class=" lg:col-span-2 text justify-self-center md:mt-8 ">
       <h2>Was ist ein Ernteanteil?</h2>
@@ -53,39 +69,27 @@ import CtaSection from "@/components/CtaSection.vue";
       <div class="flex flex-col mx-auto p-8 ">
         <h3 class="font-semibold text-lg">Abholstellen:</h3>
 
-        <div class="inline-flex p-1 mt-3 ">
-          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-               fill="#ffffff">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
+        <div class="inline-flex p-1 mt-3 gap-2 ">
+          <icon name="eco" class="w-6 h-6 text-neutral-50 flex-shrink-0  "></icon>
           Direkt am Hof in Entschendorf
         </div>
-        <div class="inline-flex p-1">
-          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-               fill="#ffffff">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
+        <div class="inline-flex p-1 gap-2">
+          <icon name="eco" class="w-6 h-6 text-neutral-50 flex-shrink-0  "></icon>
           Graz-Moserhofgasse
         </div>
-        <div class="inline-flex p-1">
-          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-               fill="#ffffff">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
+        <div class="inline-flex p-1 gap-2">
+          <icon name="eco" class="w-6 h-6 text-neutral-50 flex-shrink-0  "></icon>
           Gleisdorf-Biosphere
         </div>
-        <div class="inline-flex p-1">
-          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-               fill="#ffffff">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
+        <div class="inline-flex p-1 gap-2">
+          <icon name="eco" class="w-6 h-6 text-neutral-50 flex-shrink-0  "></icon>
           Abholgemeinschaft Sommerberg
         </div>
       </div>
     </div>
   </div>
   <div class=" md:mt-10 flex flex-col justify-end items-center">
-    <h2>Wie kann so ein Ernteanteil aussehen?</h2>
+    <h2>Wie kann ein Ernteanteil aussehen?</h2>
     <ImageSlider />
   </div>
   <cta-section>

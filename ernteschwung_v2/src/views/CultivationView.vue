@@ -1,15 +1,19 @@
 <script setup lang="ts">
 
+import Icon from "@/components/Icon.vue";
 </script>
 
 <template>
-  <div class="relative w-full  max-h-screen md:h-[500px] sm:h-[400px]">
+  <div class="relative w-full max-h-screen md:h-[500px] lg:h-[550px] h-[250px] ">
     <img src="@/assets/img/anbauFeld.jpg" alt="jungzwiebel" class="w-full h-full object-cover rounded-sm shadow-xl">
-    <div class="absolute inset-0 bg-black opacity-30"></div>
-    <div class="absolute inset-0 flex flex-col justify-end items-center text-center">
-      <div class=" w-full p-6 text-white">
-        <p class="text-4xl lg:text-6xl  leading-4">SoLaWi</p>
-        <p class="text-5xl lg:text-7xl leading-relaxed ">Ernteschwung</p>
+    <div class="absolute inset-0 bg-black opacity-40"></div>
+    <div class="absolute inset-0 flex flex-col justify-end items-center text-center gap-2 pb-2 md:pb-8">
+      <div class=" w-full text-white">
+        <p class="text-lg md:text-4xl lg:text-5xl  leading-0 md:leading-4">SoLaWi</p>
+        <p class="text-3xl md:text-6xl lg:text-7xl md:leading-relaxed tracking-wide ">Ernteschwung</p>
+      </div>
+      <div class="flex justify-center mx-auto  p-2">
+        <div class="text-sm md:text-xl text-gray-100 ">Willst du wissen, wie wir die Landwirtschaft revolutionieren?</div>
       </div>
     </div>
   </div>
@@ -54,51 +58,38 @@
         und um unsere Gemüseanbauflächen sehr am Herzen.Denn in einem reichhaltigen Ökosystem kann die Natur
         vieles von selbst regeln.</span>
       <p class="mt-5">Konkrete Maßnahmen hierfür sind:</p>
-      <div class="mx-8 mt-2">
-        <div class="inline-flex p-1">
-          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-               fill="#1c1a1a ">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
+      <div class="md:mx-8 mt-2 flex flex-col text-sm ">
+        <div class="flex p-1 gap-2">
+          <icon name="eco" class="w-6 h-6 text-primary flex-shrink-0  "></icon>
           Mulchen mit Heu (ca. ¼ der Anbaufläche)
         </div>
-        <div class="inline-flex p-1">
-          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-               fill="#1c1a1a ">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
+        <div class="flex p-1 gap-2 text-sm ">
+        <icon name="eco" class="w-6 h-6 text-primary flex-shrink-0 "></icon>
           Kein Beet geht unbedeckt über den Winter
         </div>
-        <div class="inline-flex p-1">
-          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-               fill="#1c1a1a ">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
+        <div class="flex p-1 gap-2">
+          <icon name="eco" class="w-6 h-6 text-primary flex-shrink-0  "></icon>
           Seit 2024 versuchsweiser Einsatz von Gründüngungen
         </div>
-        <div class="inline-flex p-1">
-          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-               fill="#1c1a1a ">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
+        <div class="flex p-1 gap-2">
+          <icon name="eco" class="w-6 h-6 text-primary flex-shrink-0  "></icon>
           Anlage von Blüh-Beeten
         </div>
-        <div class="inline-flex p-1">
-          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-               fill="#1c1a1a ">
-            <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/>
-          </svg>
-          Pflege & Erhalt eines Feldrains als Rückzugsort für verschiedene Tierarten
+        <div class="flex p-1 gap-2">
+          <icon name="eco" class="w-6 h-6 text-primary flex-shrink-0  "></icon>
+          <div>
+            Pflege & Erhalt eines Feldrains als Rückzugsort für verschiedene Tierarten
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="flex flex-wrap p-4  md:mt-8 bg-primary h-[600px]  gap-4 max-h-fit">
     <div class=" p-6  flex flex-col w-full">
-      <h2 class="mb-1 text-neutral-50 text-sm">Jungpflanzenproduktion</h2>
+      <h2 class="mb-1 text-neutral-50  break-words">Jungpflanzenproduktion</h2>
       <p class="pt-5 text-neutral-50">Unsere Jungpflanzen ziehen wir zu einem Teil selbst
         und zum Teil kaufen wir vom Jaklhof
-        <a href="https://jaklhof.at" class="underline hover:text-gray-500 cursor-pointer">www.jaklhof.at</a> zu. Im Mai verkaufen wir
+        <a href="https://jaklhof.at" class="underline hover:text-secondary cursor-pointer">www.jaklhof.at</a> zu. Im Mai verkaufen wir
         eine Vielzahl verschiedener Sorten von Gemüse- & Blumenjungpflanzen auf mehreren Märkten
         in der Region sowie bei unseren hofeigenen Pflanzenmärkten
       </p>
