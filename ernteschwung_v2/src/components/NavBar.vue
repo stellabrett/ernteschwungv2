@@ -32,38 +32,38 @@ function closeMenu() {
         </div>
 
         <div class="hidden lg:flex lg:gap-x-12">
-          <RouterLink to="/" class="text-sm leading-6 font-semibold text-gray-900  hover:text-primary">Home</RouterLink>
-          <RouterLink to="/about" class="text-sm  leading-6 font-semibold text-gray-900 hover:text-primary">Über uns</RouterLink>
-          <RouterLink to="/cultivation" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">Anbau</RouterLink>
-          <RouterLink to="/solawi" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">SoLaWi</RouterLink>
-          <RouterLink to="/ernteteiler" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">ErnteteilerIn werden</RouterLink>
-          <RouterLink to="/upcoming" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">Aktuelles</RouterLink>
-          <RouterLink to="/contact" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">Kontakt</RouterLink>
+          <RouterLink to="/" class="text-sm leading-6 font-semibold text-gray-900  hover:text-secondary">Home</RouterLink>
+          <RouterLink to="/about" class="text-sm  leading-6 font-semibold text-gray-900 hover:text-secondary">Über uns</RouterLink>
+          <RouterLink to="/cultivation" class="text-sm font-semibold leading-6 text-gray-900 hover:text-secondary">Anbau</RouterLink>
+          <RouterLink to="/solawi" class="text-sm font-semibold leading-6 text-gray-900 hover:text-secondary">SoLaWi</RouterLink>
+          <RouterLink to="/ernteteiler" class="text-sm font-semibold leading-6 text-gray-900 hover:text-secondary">ErnteteilerIn werden</RouterLink>
+          <RouterLink to="/upcoming" class="text-sm font-semibold leading-6 text-gray-900 hover:text-secondary">Aktuelles</RouterLink>
+          <RouterLink to="/contact" class="text-sm font-semibold leading-6 text-gray-900 hover:text-secondary">Kontakt</RouterLink>
         </div>
       </nav>
 
       <!-- Mobile Menu -->
-      <div v-if="isOpen" class="absolute left-0 right-0 top-18 z-50 flex flex-col p-5 bg-tertiary bg-neutral-50 bg-opacity-90 shadow-lg items-start ">
-        <button class="w-full">
-          <RouterLink to="/" @click="closeMenu" class="text-sm p-2 hover:bg-tertiary-dark w-full  ">Home</RouterLink>
+      <div v-if="isOpen" class="absolute left-0 right-0 top-18 z-50 flex flex-col p-5  bg-neutral-50 bg-opacity-90 shadow-lg justify-start ">
+        <button class="flex items-start">
+          <RouterLink to="/" @click="closeMenu" class="text-sm p-2   ">Home</RouterLink>
         </button>
-        <button class="w-full">
-          <RouterLink to="/about" @click="closeMenu" class="text-sm p-2 hover:bg-tertiary-dark w-full">Über uns</RouterLink>
+        <button class="flex items-start">
+          <RouterLink to="/about" @click="closeMenu" class="text-sm p-2  ">Über uns</RouterLink>
         </button>
-        <button class="w-full">
-          <RouterLink to="/cultivation" @click="closeMenu" class="text-sm p-2 hover:bg-tertiary-dark w-full ">Anbau</RouterLink>
+        <button class="flex items-start">
+          <RouterLink to="/cultivation" @click="closeMenu" class="text-sm p-2  ">Anbau</RouterLink>
         </button>
-        <button class="w-full">
-          <RouterLink to="/solawi" @click="closeMenu" class="text-sm p-2 hover:bg-tertiary-dark w-full ">SoLaWi</RouterLink>
+        <button class="flex items-start">
+          <RouterLink to="/solawi" @click="closeMenu" class="text-sm p-2  ">SoLaWi</RouterLink>
         </button>
-        <button class="w-full">
-          <RouterLink to="/ernteteiler" @click="closeMenu" class="text-sm p-2 hover:bg-tertiary-dark w-full ">ErnteteilerIn</RouterLink>
+        <button class="flex items-start">
+          <RouterLink to="/ernteteiler" @click="closeMenu" class="text-sm p-2  ">ErnteteilerIn</RouterLink>
         </button>
-        <button class="w-full">
-          <RouterLink to="/upcoming" @click="closeMenu" class="text-sm p-2 hover:bg-tertiary-dark w-full ">Aktuelles</RouterLink>
+        <button class="flex items-start">
+          <RouterLink to="/upcoming" @click="closeMenu" class="text-sm p-2   ">Aktuelles</RouterLink>
         </button>
-        <button class="w-full">
-          <RouterLink to="/contact" @click="closeMenu" class="text-sm p-2 hover:bg-tertiary-dark w-full ">Kontakt</RouterLink>
+        <button class="flex items-start">
+          <RouterLink to="/contact" @click="closeMenu" class="text-sm p-2 hover:bg-tertiary-dark  ">Kontakt</RouterLink>
         </button>
       </div>
     </header>
