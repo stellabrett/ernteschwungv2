@@ -5,7 +5,6 @@ import violetteBohnen from "@/assets/img/violetteBohnen_web.jpg";
 import ButtonPrimary from "@/components/_ui_components/ButtonPrimary.vue";
 import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
 import ButtonTertiary from "@/components/_ui_components/ButtonTertiary.vue";
-import Icon from "@/components/Icon.vue";
 import {useRouter} from "vue-router";
 
 const router = useRouter()
@@ -67,7 +66,7 @@ const router = useRouter()
   <div class="flex mt-2 mx-auto">
     <div class="card flex flex-col text-center h-full justify-center items-center mx-auto">
       <div class="max-w-56 max-h-56 p-2">
-        <img src="@/assets/img/logoRund.jpg" alt="SoLaWi" class="rounded-sm self-center w-full ">
+        <img src="@/assets/img/Logo_rund.png" alt="SoLaWi" class="rounded-sm self-center w-full ">
       </div>
 
       <h2 class="md:mt-5 mt-3">SoLaWi</h2>
