@@ -66,7 +66,7 @@ const router = useRouter()
   <div class="flex mt-2 mx-auto">
     <div class="card flex flex-col text-center h-full justify-center items-center mx-auto">
       <div class="max-w-56 max-h-56 p-2">
-        <img src="@/assets/img/Logo_rund.png" alt="SoLaWi" class="rounded-sm self-center w-full ">
+        <img src="@/assets/img/Logo_rund_30_40_125dpi.png" alt="SoLaWi" class="rounded-sm self-center w-full ">
       </div>
 
       <h2 class="md:mt-5 mt-3">SoLaWi</h2>
