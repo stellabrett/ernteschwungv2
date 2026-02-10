@@ -84,8 +84,8 @@ import Icon from "@/components/Icon.vue";
       </div>
     </div>
   </div>
-  <div class="flex flex-wrap p-4  md:mt-8 bg-primary h-[600px]  gap-4 max-h-fit">
-    <div class=" p-6  flex flex-col w-full">
+  <div class="flex flex-wrap p-4  md:mt-8 bg-primary gap-4">
+    <div class=" p-6  flex flex-col w-full self-center">
       <h2 class="mb-1 text-neutral-50  break-words">Jungpflanzenproduktion</h2>
       <p class="pt-5 text-neutral-50">Unsere Jungpflanzen ziehen wir zu einem Teil selbst
         und zum Teil kaufen wir vom Jaklhof

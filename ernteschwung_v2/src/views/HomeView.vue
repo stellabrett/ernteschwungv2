@@ -5,9 +5,6 @@ import violetteBohnen from "@/assets/img/violetteBohnen_web.jpg";
 import ButtonPrimary from "@/components/_ui_components/ButtonPrimary.vue";
 import ButtonSecondary from "@/components/_ui_components/ButtonSecondary.vue";
 import ButtonTertiary from "@/components/_ui_components/ButtonTertiary.vue";
-import {useRouter} from "vue-router";
-
-const router = useRouter()
 </script>
 
 
@@ -39,7 +36,7 @@ const router = useRouter()
           Tomatenschwemme im Sommer bis hin zum saftigen Vogerlsalat aus dem ringsum verschneiten Gewächshaus. Das ist
           saisonaler Gemüsegenuss, den du mit uns erleben kannst. Hast du Lust auf mehr?</p>
 
-      <router-link to="cultivation">
+      <router-link to="/cultivation">
         <ButtonPrimary class="" title="Erfahre mehr"/>
       </router-link>
 

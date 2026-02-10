@@ -3,10 +3,19 @@
 import {useEventStore} from "@/stores/event.ts";
 import EventCard from "@/components/EventCard.vue";
 import SocialBanner from "@/components/SocialBanner.vue";
-import Icon from "@/components/Icon.vue";
 
 const eventStore = useEventStore()
 eventStore.fetchEvents()
+
+const blumenPdf = new URL(
+  "../assets/pdfs/Blumenjungpflanzen Sortiment 2025.pdf",
+  import.meta.url
+).href
+
+const gemuesePdf = new URL(
+  "../assets/pdfs/GemüsejungpflanzenSortiment 2025.pdf",
+  import.meta.url
+).href
 </script>
 
 <template>
@@ -44,8 +53,9 @@ eventStore.fetchEvents()
     <h2 class="text-2xl text-center mb-4">Unsere Jungpflanzenlisten</h2>
     <div class="flex flex-col md:flex-row justify-center gap-4">
         <a
-          href="/src/assets/pdfs/Blumenjungpflanzen Sortiment 2025.pdf"
+          :href="blumenPdf"
           target="_blank"
+          rel="noopener"
           class="bg-secondary text-white px-6 py-3 rounded-xl shadow-lg hover:bg-green-900 transition"
         >
 
@@ -56,8 +66,9 @@ eventStore.fetchEvents()
 
 
       <a
-        href="src/assets/pdfs/GemüsejungpflanzenSortiment 2025.pdf"
+        :href="gemuesePdf"
         target="_blank"
+        rel="noopener"
         class="bg-secondary  text-white px-6 py-3 rounded-xl shadow-lg hover:bg-green-900 transition"
       >
         <p class="text-lg">Gemüsejungpflanzen</p>
